@@ -20,7 +20,8 @@ body{
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.418);
     outline: 1px solid black;
     border-radius: 3px;
-    overflow: hidden;
+  
+    
 }
 .button{
     display: flex;
@@ -62,4 +63,28 @@ body{
 
     transition: 1s;
 }
+.nav{
+    display: flex;
+    position: relative;
+    left: -3710px;
+    top: 150px;
+}
+.nav > input{
+    width: 25px;
+    height: 15px;
 
+    border: 2px solid rgb(212, 194, 194);
+    border-radius: 5px;
+    background-color: transparent;
+
+
+    cursor: pointer;
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+    transition: 0.5s;
+}
+.nav > input:hover{
+    background-color: rgb(43, 220, 226);
+}
